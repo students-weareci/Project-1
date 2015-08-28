@@ -1,0 +1,40 @@
+Hey Man,
+
+This video is a step-by-step integration of cloud9 and GitHub. I wrote out the steps I followed to recreate it below. Let me know if you need more detail. It's not as tough as is seems.
+
+SETTING UP GITHUB (MUST BE DONE FIRST)
+ 1. Go to: www.github.com
+ 2. Click: "Sign Up" - top right corner
+ 3. Enter:
+   - User Name
+   - Email
+   - Password
+   - Confirm Password
+ 4. Click: "Create an account"
+ 5. Choose : The free personal account
+ 6. Click "Finish set up"
+ 7. Go to your personal email
+   - Find and Open: Confirmation email from GitHub
+   - Click: "Verify email address"
+   - Arrive at: GitHub control panel
+ 8. Click: "New repository"
+ 9. Name Repository: "Project 1"
+10. Select: "Public" - No need to initialize
+11. Click: "Create repository"
+
+USE GITHUB TO CREATE A CLOUD9 ACCOUNT (MUST BE DONE THIS WAY)
+ 1. Go to: www.c9.io
+ 2. Click: "GitHub logo" - top right corner (second from the right)
+ 3. Click: "Autorize application"
+ 4. Enter: your email address
+ 5. Click: "Proceed"
+
+INTEGRATE GITHUB AND CLOUD9
+ 1. In Cloud9 - Click: "Create a new workspace"
+ 2. Name Project: "Project 1"
+ 3. In GitHub - Find: "Quick setup — if you’ve done this kind of thing before"
+ 4. Click: "SSH"
+ 5. Click: the "copy to clipboard" icon
+ 6. In Cloud9 - Scroll down to:"Clone from Git or Mercurial URL"
+ 7. Paste: url into
+ 8. Click: "Create new workspace"
