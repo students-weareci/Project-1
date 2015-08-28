@@ -38,3 +38,32 @@ INTEGRATE GITHUB AND CLOUD9
  6. In Cloud9 - Scroll down to:"Clone from Git or Mercurial URL"
  7. Paste: url into
  8. Click: "Create new workspace"
+ 9. Click: "File"
+10. Click: "New"
+11. Click: "File"
+12. Click: "Save"
+13. Name File: "README"
+14. Type: "Hello World"
+15. Click: "File"
+16. Click: "Save"
+
+PUSH PROJECT TO GITHUB
+ 1. In Cloud9 - Click: "Window" - Top tool bar
+ 2. Click: "New Terminal"
+ 3. Type: "git add ."
+ 4. Press: "Enter/Return" button
+ 5. Type: "git status"
+ 6. Press: "Enter/Return" button
+ 7. Type: "git commit -m ''"
+ 8. Inside the '' - Type: [any message to the world about your first commit] "my first github commit"
+ 9. Press: "Enter/Return" button
+10. Type: "git push origin master"
+11. Press: "Enter/Return" button
+12. Type: "yes"
+13. Press: "Enter/Return" button
+
+CHECK YOUR CODE
+ 1. In GitHub: Refresh the Page
+ 2. Click: "README"
+
+YOU'VE PUSHED YOUR FIRST PIECE OF CODE!!!
